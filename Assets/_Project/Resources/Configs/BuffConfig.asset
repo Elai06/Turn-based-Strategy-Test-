@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e56ce80cda49b39dd0342afef2c071, type: 3}
+  m_Name: BuffConfig
+  m_EditorClassIdentifier: 
+  _buffs:
+  - EBuffName: 0
+    Rounds: 3
+    IncreaseParameter:
+      Type: 2
+      Value: 2
+    DecreaseParameter:
+      Type: 0
+      Value: 0
+  - EBuffName: 1
+    Rounds: 3
+    IncreaseParameter:
+      Type: 3
+      Value: 50
+    DecreaseParameter:
+      Type: 0
+      Value: 0
+  - EBuffName: 2
+    Rounds: 3
+    IncreaseParameter:
+      Type: 0
+      Value: 0
+    DecreaseParameter:
+      Type: 3
+      Value: 10
+  - EBuffName: 3
+    Rounds: 3
+    IncreaseParameter:
+      Type: 4
+      Value: 50
+    DecreaseParameter:
+      Type: 3
+      Value: 25
+  - EBuffName: 4
+    Rounds: 3
+    IncreaseParameter:
+      Type: 0
+      Value: 0
+    DecreaseParameter:
+      Type: 4
+      Value: 25
